@@ -1,0 +1,50 @@
+@import "@consona/interface/styles.css";
+@source "../../src/**/*.{ts,tsx}";
+
+
+html, body {
+  background-color: var(--bg);
+  color: var(--fg);
+  overscroll-behavior-x: auto;
+  font-family: var(--font-sans, system-ui, -apple-system, sans-serif);
+}
+
+/* Universal Clickable Pointer Cursor Reset */
+button,
+[role="button"],
+[role="tab"],
+[type="button"],
+[type="submit"],
+[type="reset"],
+[type="checkbox"],
+[type="radio"],
+[type="range"],
+a,
+summary,
+select,
+label[for],
+label:has(input),
+[tabindex="0"],
+.cursor-pointer,
+[data-state],
+[data-orientation] button,
+[role="tablist"] button,
+[role="tab"] {
+  cursor: pointer !important;
+}
+
+/* Explicitly ensure disabled elements show not-allowed */
+button:disabled,
+[role="button"][aria-disabled="true"],
+[aria-disabled="true"],
+[disabled] {
+  cursor: not-allowed !important;
+}
+
+/* Slider thumbs and tracks */
+input[type="range"]::-webkit-slider-thumb {
+  cursor: pointer !important;
+}
+input[type="range"]::-moz-range-thumb {
+  cursor: pointer !important;
+}

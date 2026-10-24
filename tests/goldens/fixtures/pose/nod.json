@@ -1,0 +1,82 @@
+{
+  "animation": "nod",
+  "gaze": null,
+  "samples": {
+    "t=0": {
+      "consona:headGroup": {
+        "yOffset": 0,
+        "rotateX": 0
+      },
+      "consona:head": {
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      "consona:eyes": {
+        "yOffset": 0,
+        "rotateX": 0,
+        "scaleX": 1,
+        "scaleY": 1,
+        "openness": 1,
+        "gazeY": 0,
+        "pupilScale": 0.48
+      }
+    },
+    "t=0.25": {
+      "consona:headGroup": {
+        "yOffset": 7.230874767885168,
+        "rotateX": 0.15222894248179303
+      },
+      "consona:head": {
+        "scaleX": 1.0304457884963587,
+        "scaleY": 0.954331317255462
+      },
+      "consona:eyes": {
+        "yOffset": 7.809344749315982,
+        "rotateX": 0.15222894248179303,
+        "scaleX": 1.0608915769927172,
+        "scaleY": 0.6574848794159658,
+        "openness": 1,
+        "gazeY": 3.8361693505411836,
+        "pupilScale": 0.582297849347765
+      }
+    },
+    "t=0.5": {
+      "consona:headGroup": {
+        "yOffset": 7.234353412758707,
+        "rotateX": 0.15230217711070962
+      },
+      "consona:head": {
+        "scaleX": 1.0304604354221418,
+        "scaleY": 0.9543093468667871
+      },
+      "consona:eyes": {
+        "yOffset": 7.813101685779404,
+        "rotateX": 0.15230217711070962,
+        "scaleX": 1.0609208708442839,
+        "scaleY": 0.6573201015009034,
+        "openness": 1,
+        "gazeY": 3.8380148631898816,
+        "pupilScale": 0.5823470630183969
+      }
+    },
+    "t=0.75": {
+      "consona:headGroup": {
+        "yOffset": 0,
+        "rotateX": 0
+      },
+      "consona:head": {
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      "consona:eyes": {
+        "yOffset": 0,
+        "rotateX": 0,
+        "scaleX": 1,
+        "scaleY": 1,
+        "openness": 1,
+        "gazeY": 0,
+        "pupilScale": 0.48
+      }
+    }
+  }
+}

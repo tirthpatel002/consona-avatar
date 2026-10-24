@@ -1,0 +1,139 @@
+{
+  "name": "@consona/avatar",
+  "version": "0.1.0",
+  "description": "Consona Avatar Enhanced — Dynamic Parametric Atomic Engine with Continuous Morphing, Real-time Gaze Tracking, and Modular Atom Libraries",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "default": "./dist/index.js"
+    },
+    "./core": {
+      "types": "./dist/core/index.d.ts",
+      "default": "./dist/core/index.js"
+    },
+    "./preset": {
+      "types": "./dist/core/preset/index.d.ts",
+      "default": "./dist/core/preset/index.js"
+    },
+    "./math": {
+      "types": "./dist/core/math/index.d.ts",
+      "default": "./dist/core/math/index.js"
+    },
+    "./color": {
+      "types": "./dist/core/color/index.d.ts",
+      "default": "./dist/core/color/index.js"
+    },
+    "./animation": {
+      "types": "./dist/core/animation/index.d.ts",
+      "default": "./dist/core/animation/index.js"
+    },
+    "./renderers": {
+      "types": "./dist/core/renderers/index.d.ts",
+      "default": "./dist/core/renderers/index.js"
+    },
+    "./adapters/svg": {
+      "types": "./dist/adapters/svg/index.d.ts",
+      "default": "./dist/adapters/svg/index.js"
+    },
+    "./adapters/canvas2d": {
+      "types": "./dist/adapters/canvas2d/index.d.ts",
+      "default": "./dist/adapters/canvas2d/index.js"
+    },
+    "./react": {
+      "types": "./dist/react/index.d.ts",
+      "default": "./dist/react/index.js"
+    },
+    "./three": {
+      "types": "./dist/adapters/three/index.d.ts",
+      "default": "./dist/adapters/three/index.js"
+    },
+    "./three/react": {
+      "types": "./dist/adapters/three/react/index.d.ts",
+      "default": "./dist/adapters/three/react/index.js"
+    },
+    "./avatars/consona": {
+      "types": "./dist/avatars/consona/index.d.ts",
+      "default": "./dist/avatars/consona/index.js"
+    },
+    "./avatars/consona/install": {
+      "types": "./dist/avatars/consona/install.d.ts",
+      "default": "./dist/avatars/consona/install.js"
+    },
+    "./avatars/consona/react": {
+      "types": "./dist/avatars/consona/react/index.d.ts",
+      "default": "./dist/avatars/consona/react/index.js"
+    },
+    "./avatars/allie": {
+      "types": "./dist/avatars/allie/index.d.ts",
+      "default": "./dist/avatars/allie/index.js"
+    },
+    "./avatars/allie/install": {
+      "types": "./dist/avatars/allie/install.d.ts",
+      "default": "./dist/avatars/allie/install.js"
+    },
+    "./avatars/allie/three": {
+      "types": "./dist/avatars/allie/three/index.d.ts",
+      "default": "./dist/avatars/allie/three/index.js"
+    },
+    "./plugins/vibe": {
+      "types": "./dist/plugins/vibe/index.d.ts",
+      "default": "./dist/plugins/vibe/index.js"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc -p tsconfig.build.json",
+    "type-check": "tsc -p tsconfig.json --noEmit",
+    "test": "node --test --experimental-strip-types tests/**/*.test.ts tests/*.test.ts"
+  },
+  "keywords": [
+    "consona",
+    "avatar",
+    "parametric-avatar",
+    "dynamic-avatar",
+    "gaze-tracking",
+    "vector-morphing",
+    "svg",
+    "luxury-ui",
+    "three",
+    "3d-avatar"
+  ],
+  "peerDependencies": {
+    "react": "^18.0.0 || ^19.0.0",
+    "react-dom": "^18.0.0 || ^19.0.0",
+    "three": ">=0.160.0"
+  },
+  "peerDependenciesMeta": {
+    "react": {
+      "optional": true
+    },
+    "react-dom": {
+      "optional": true
+    },
+    "three": {
+      "optional": true
+    }
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "@types/three": "^0.186.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "three": "^0.186.1",
+    "typescript": "^5.7.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tirthpatel002/consona-avatar.git"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

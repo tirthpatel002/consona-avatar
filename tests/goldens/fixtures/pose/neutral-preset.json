@@ -1,0 +1,49 @@
+{
+  "preset": "neutral",
+  "samples": {
+    "t=0": {
+      "consona:head.yOffset": 0,
+      "consona:head.xOffset": 0,
+      "consona:head.scaleX": 1,
+      "consona:head.scaleY": 1,
+      "consona:eyes.yOffset": 0,
+      "consona:eyes.xOffset": 0,
+      "consona:eyes.scaleX": 1,
+      "consona:eyes.scaleY": 1.022,
+      "consona:eyes.tiltDeg": 0
+    },
+    "t=1": {
+      "consona:head.yOffset": 0.624,
+      "consona:head.xOffset": 0.247,
+      "consona:head.scaleX": 1.018,
+      "consona:head.scaleY": 0.9865,
+      "consona:eyes.yOffset": 1.056,
+      "consona:eyes.xOffset": 0.377,
+      "consona:eyes.scaleX": 1.0135,
+      "consona:eyes.scaleY": 1,
+      "consona:eyes.tiltDeg": 0.75
+    },
+    "t=2": {
+      "consona:head.yOffset": 0,
+      "consona:head.xOffset": 0,
+      "consona:head.scaleX": 1,
+      "consona:head.scaleY": 1,
+      "consona:eyes.yOffset": 0,
+      "consona:eyes.xOffset": 0,
+      "consona:eyes.scaleX": 1,
+      "consona:eyes.scaleY": 0.978,
+      "consona:eyes.tiltDeg": 0
+    },
+    "t=3.9": {
+      "consona:head.yOffset": -0.137787,
+      "consona:head.xOffset": -0.038639,
+      "consona:head.scaleX": 0.997184,
+      "consona:head.scaleY": 1.002112,
+      "consona:eyes.yOffset": -0.233179,
+      "consona:eyes.xOffset": -0.058976,
+      "consona:eyes.scaleX": 0.997888,
+      "consona:eyes.scaleY": 1.021729,
+      "consona:eyes.tiltDeg": -0.117326
+    }
+  }
+}

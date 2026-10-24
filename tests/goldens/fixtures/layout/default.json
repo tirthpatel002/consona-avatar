@@ -1,0 +1,75 @@
+{
+  "seed": "golden-default",
+  "paletteId": "light",
+  "mode": "light",
+  "head": {
+    "shape": "circle",
+    "width": 78,
+    "height": 78,
+    "roundness": 0.85,
+    "surfaceShadow": false
+  },
+  "eyes": {
+    "shape": "capsule",
+    "spacing": 22,
+    "yOffset": 44,
+    "xOffset": 0,
+    "width": 10.5,
+    "height": 22,
+    "tiltMode": "spatial3D",
+    "tiltDeg": 0,
+    "openness": 1,
+    "gazeExcursion": 2.2735748497655974,
+    "strokeWidth": 0,
+    "strokeColor": "",
+    "bgMode": "accent",
+    "bgColor": "",
+    "pupilEnabled": false,
+    "pupilScale": 0.48,
+    "pupilColor": "",
+    "pupilGazeTracking": 0.8,
+    "leftEye": {
+      "shape": "capsule",
+      "openness": 1
+    },
+    "rightEye": {
+      "shape": "capsule",
+      "openness": 1
+    }
+  },
+  "consona:head": {
+    "shape": "circle",
+    "width": 78,
+    "height": 78,
+    "roundness": 0.85,
+    "surfaceShadow": false
+  },
+  "consona:eyes": {
+    "shape": "capsule",
+    "spacing": 22,
+    "yOffset": 44,
+    "xOffset": 0,
+    "width": 10.5,
+    "height": 22,
+    "tiltMode": "spatial3D",
+    "tiltDeg": 0,
+    "openness": 1,
+    "gazeExcursion": 2.2735748497655974,
+    "strokeWidth": 0,
+    "strokeColor": "",
+    "bgMode": "accent",
+    "bgColor": "",
+    "pupilEnabled": false,
+    "pupilScale": 0.48,
+    "pupilColor": "",
+    "pupilGazeTracking": 0.8,
+    "leftEye": {
+      "shape": "capsule",
+      "openness": 1
+    },
+    "rightEye": {
+      "shape": "capsule",
+      "openness": 1
+    }
+  }
+}
